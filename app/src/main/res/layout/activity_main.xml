@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="1"
+
+    tools:context="com.sargent.mark.todolist.MainActivity">
+
+
+   <!-- <CheckBox android:id="@+id/checkbox_meat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/meat"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/checkbox_cheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cheese"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/mac_cheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mac_cheese"
+        android:onClick="onCheckboxClicked"/>-->
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/planets_array"
+        android:layout_weight="0.03" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight=".90" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addToDo"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:src="@drawable/ic_add_black_48dp"
+        android:text="Add Item" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="planets_array">plantes_array</string>
+    <string name="array">array</string>
+<!--i have created a data source for spinner thats step 1 -->
+        <string-array name="planets_array">
+            <item>History</item>
+            <item>Science</item>
+            <item>Art</item>
+            <item>Physics</item>
+
+        </string-array>
+
+    <string-array name="array">
+            <item>All</item>
+            <item>History</item>
+            <item>Science</item>
+            <item>Art</item>
+            <item>Physics</item>
+        </string-array>
+
+   <!-- <string name="meat">Meat</string>
+    <string name="cheese">cheese</string>
+    <string name="mac_cheese">mac-cheese</string>-->
+</resources>
